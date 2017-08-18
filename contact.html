@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8" />
+	<title>Ясень</title>
+	<meta name="description" content=""/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="1220px" /> 
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"> 
+	<!--libs-->
+	
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/font-awesome-animation.min.css" />
+	<!--fonts-->
+	<link rel="stylesheet" href="css/fonts.css" />
+	<!--styles-->
+	<link rel="stylesheet" href="css/media.css" />
+	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/reset.css" type="text/css"/>
+		 <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+</head>
+<body>
+
+<!--header-->
+<div class="container">
+	<header>
+			<a  href="index.html"><div class="logo"><img src="img/logo.png"></div></a>
+			<ul>
+				<li ><a href="index.html">О компании</a></li>
+				<li ><a href="manufacrures.html">Производителям</a></li>
+				<li><a href="ritailer.html">Ритейлерам</a></li>
+				<li class="active"><a href="contact.html">Контакты</a></li>
+			</ul>
+			<div class="phone"><a href="tel:84957503833">8 (495) 740 38 33</a></div>
+	</header>
+</div>
+
+
+<div id="contactMain">
+	<div class="container">
+        <div class="blockInfo">
+            <div class="title">Производственно-складской комплекс</div>
+            <div class="info">Московская область, Каширский район,
+            п. Новоселки<br>
+            sklad@yasen-pallet.com <br>
+            <a href="tel:+7(495)7403833">+7 (495) 740-38-33</a><br>
+            Режим работы: круглосуточно </div>
+            <div class="line1"></div>
+        </div>
+        <div class="blockInfo">
+            <div class="title">Офис в Санкт-Петербурге</div>
+            <div class="info">г. Санкт-Петербург, пр. Стачек, д. 48/2<br>
+            spb@yasen-pallet.com <br>
+           <a href="tel:+7(911)2185408"> +7 (911) 218-54-08</a><br>
+            Режим работы: пн-пт с 9:00 до 21:00</div>
+            <div class="line1"></div>
+        </div>
+        <div class="blockInfo">
+            <div class="title">Офис в Москве</div>
+            <div class="info">Московская Область, г. Ступино, ул. Калинина 1А, <br>деловой центр «Логос», оф. №309
+<br>info@yasen-pallet.com  <br>
+<a href="tel:+7(925)0308378">+7 (925) 030-83-78</a><br>
+Режим работы: пн-чт с 9:00 до 18:00, <br>
+пт с 9:00 до 17:30</div>
+
+        </div>
+        
+	</div>
+</div>
+	<div class="backDec col-md-12"></div>
+
+<div id="contact">
+	<div class="container">
+		<div class="title">Контакты</div>
+	</div>
+	<div class="map">
+
+	  <div id="mymap"></div>
+<div>
+
+</div>
+
+		<div class="backColor"></div>
+		<div class="container">
+			<div class="text">
+				<div class="title">
+					<a id="link1" href="#">Производственно-складской комплекс</a>
+				</div>
+				<div class="content" id="content1">
+					Московская область, Каширский район,
+					п. Новоселки <br>
+					sklad@yasen-pallet.com <br>
+					+7 (495) 740-38-33<br>
+					Режим работы: круглосуточно <br>
+				</div>
+				<div class="title" id="place2">
+					<a id="link2" href="#">ОФИС В САНКТ-ПЕТЕРБУРГЕ</a>
+				</div>
+
+
+
+
+
+				<div class="content" id="content2" >
+г. Санкт-Петербург, пр. Стачек, д. 48/2 spb@yasen-pallet.com <br>
+					+7 (911) 218-54-08<br>
+					Режим работы: пн-пт с 9:00 до 21:00<br>
+				</div>
+
+				<div class="title">
+					<a id="link3" href="#">ОФИС В МОСКВЕ</a>
+				</div>
+
+				<div class="content" id="content3" >
+Московская Область, г. Ступино, ул. Калинина 1А, деловой центр «Логос»,<br> оф. №309<br>info@yasen-pallet.com  <br>
+					+7 (925) 030-83-78<br>
+					Режим работы: пн-чт с 9:00 до 18:00, <br>
+пт с 9:00 до 17:30<br>
+				</div>
+			</div>
+		</div>
+	</div>
+
+<footer>
+	<div class="container">
+			<div id="up"></div>
+		<div class="row">
+			<div class="text">© 2010 Паллетная компания «Ясень». Все права защищены.</div>
+			<div class="text text3">ежедневно с 09:00 до 21:00<br>
+<span>8 (495) 740 38 33</span></div>
+		</div>
+	</div>
+
+</footer>
+	
+
+
+
+	
+
+
+	<div id="modal_form"><!-- Сaмo oкнo --> 
+      <span id="modal_close">X</span> <!-- Кнoпкa зaкрыть --> 
+      <form id="form">
+
+
+
+          <input  type="text" name="name" placeholder="Вашe имя" required>
+      	<input  type="text" name="phone" placeholder="Ваш телефон" required>
+		<button type="submit">Отправить </button>
+      </form>
+</div>
+<div id="overlay"></div><!-- Пoдлoжкa -->
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/jquery-3.1.1.min.js"></script>
+
+<script src="js/main.js"></script>
+
+	 <script type="text/javascript" src="js/map.js"></script>
+
+ 
+</body>
+</html>

@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "Regular";
+    src: local('GothaProReg_0'), url("../fonts/GothaProReg_0.otf");
+
+}
+
+@font-face {
+    font-family: "Bold";
+    src: local('GothaProBol_0'), url("../fonts/GothaProBol_0.otf");
+}
+
+@font-face {
+    font-family: "Medium";
+    src: local('GothaProMed_0'), url("../fonts/GothaProMed_0.otf");
+}
+
